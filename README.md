@@ -1,7 +1,7 @@
 git clone
 ```
-git clone
-cd 
+git clone https://github.com/hyungyum/APNR.git
+cd APNR
 
 ```
 
