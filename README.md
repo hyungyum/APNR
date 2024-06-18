@@ -1,4 +1,15 @@
+git clone
+```
+git clone
+cd 
 
+```
+
+필요한 패키지 설치
+```
+pip install -r requirements.txt
+
+```
 
 이미지에 대한 demo 돌리는 법
 ```
