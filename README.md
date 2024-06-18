@@ -11,16 +11,10 @@ pip install -r requirements.txt
 
 ```
 
-이미지에 대한 demo 돌리는 법
-```
-python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weights/plate_rec_color.pth --image_path imgs --output result
-```
 
-
-
-영상에 대한 데모 돌리는 법
+샘플 영상에 대한 데모 돌리는 법
 ```
-python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weights/plate_rec_color.pth --video 2.mp4
+python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weights/plate_rec_color.pth --video sample.mp4 --crime_plate AP05JE0
 ```
 
 각 명령행 인자 <hr>
@@ -29,6 +23,7 @@ python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weigh
 -- image_path 이미지 경로 <br>
 -- ouput 처리된 이미지를 출력할 경로 <br>
 -- video 영상 경로 <br>
+--crime_plate 범죄차량번호 <br>
 
 
 샘플 영상 다운로드 링크
